@@ -32,11 +32,11 @@ utm=url2;
 }
 
 
-scrapeData();
+//scrapeData();
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node!\n'
+  const utm = 'Hello Node!\n'
   res.end(utm);
 });
 
