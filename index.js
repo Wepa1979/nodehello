@@ -1,9 +1,5 @@
 const http = require('http');
 const port = process.env.PORT || 3000;
-var express = require('express');
-const axios = require("axios");
-const cheerio = require("cheerio");
-const fs = require("fs");
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
